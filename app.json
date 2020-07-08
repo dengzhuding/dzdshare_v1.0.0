@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#595959",
+    "selectedColor": "#03bd01",
+    "backgroundColor": "#fff",
+    "borderStyle": "#e5e5e5",
+    "position": "bottom",
+    "custom": false,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "日志"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#e5e5e5",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 20
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
